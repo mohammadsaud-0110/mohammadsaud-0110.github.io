@@ -28,7 +28,7 @@ function closemenu(){
 let btns=document.getElementsByClassName("resume_btan");
 for(let btn of btns){
   btn.addEventListener("click",()=>{
-    window.open("../images/Prashant_Verma_Resume.pdf", "_blank");
+    window.open("../images/Mohammad-Saud-Resume.pdf", "_blank");
   })
 }
 
