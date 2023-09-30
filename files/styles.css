@@ -221,7 +221,7 @@ p {
   min-height: 50vh;
 }
 
-.about>h1 {
+#about .section_title {
   font-size: 35px;
   font-weight: bold;
   color: rgb(47, 169, 220);
