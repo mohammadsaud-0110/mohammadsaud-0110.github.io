@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammad Saud | Portfolio</title>
+    <link rel="shortcut icon" href="./files/favicon.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/bd303dea31.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./files/styles.css">
+</head>
+
+<body>
+    <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
+    </div>
+    <nav id="nav-menu" class="navbar">
+        <div class="nav-logo">
+            <h1>
+                < Mohammad Saud />
+            </h1>
+        </div>
+        <ul class="nav-links">
+            <li><a class="nav-link home" href="#home">Home</a></li>
+            <li><a class="nav-link about" href="#about">About</a></li>
+            <li><a class="nav-link skills" href="#skills">Skills</a></li>
+            <li><a class="nav-link projects" href="#projects">Projects</a></li>
+            <li><a class="nav-link contact" href="#contact">Contact</a></li>
+            <li><button class="nav-link resume" onclick="resume()" id="resume-button-1">
+                    <a href="Mohammad-Saud-Resume.pdf" id="resume-link-1" download="Mohammad-Saud-Resume.pdf">
+                        Resume
+                        <i class="fas fa-download"></i>
+                    </a></button></li>
+        </ul>
+        <div class="burger-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </nav>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-regular fa-square-caret-up"></i></button>
+
+    <!------------------------------------------------------ HOME  ------------------------------------------------------>
+    <section id="home" class="home section">
+        <div>
+            <h2>Hello, I'm <span id="home-span">Mohammad Saud</span></h2>
+            <br>
+            <h2>Node Backend Developer</h2>
+            <br>
+            <p>Skilled Full-stack web developer with a strong Backend focus. <br>
+                Proficient in crafting scalable systems and leveraging Generative AI <br>
+                for exceptional user experiences and innovative web applications.</p>
+        </div>
+        <img class="home-img" src="./files/favicon.png" alt="Mohammad Saud">
+    </section>
+
+    <hr>
+
+    <!------------------------------------------------------ ABOUT  ------------------------------------------------------>
+    <section id="about" class="about section">
+        <br>
+        <br>
+        <h1>ABOUT</h1>
+        <br>
+        <br>
+        <div>
+            <h2 id="user-detail-name">Hi! I am <span>Mohammad Saud</span></h2>
+            <p id="user-detail-intro"><span>I</span> am a highly skilled Full-stack web developer with a strong focus on
+                Backend development.
+                Passionate about creating robust, scalable, and efficient web applications, my expertise lies in
+                designing scalable backend architectures, RESTful APIs, and database integration.
+                I also leverage generative AI techniques to bring innovative solutions to projects,
+                ensuring exceptional user experiences. My quick adaptability enables me to stay updated
+                with the latest technologies and deliver cutting-edge solutions.</p>
+
+            <br>
+            <br>
+            <a href="Mohammad-Saud-Resume.pdf" id="resume-link-2" style="color:white"
+                download="Mohammad-Saud-Resume.pdf">
+                <button class="nav-link resume" onclick="resume()" id="resume-button-2">
+                    Resume <i class="fas fa-download"></i>
+                </button>
+            </a>
+        </div>
+    </section>
+
+    <hr>
+
+
+    <!------------------------------------------------------ SKILLS  ------------------------------------------------------>
+    <section id="skills" class="skills section">
+        <br>
+        <br>
+        <h1>Skills</h1>
+        <div>
+            <div class="skills-card">
+                <img class="skills-card-img" src="./files//skills_img/node.js.png" alt="Skill Image">
+                <div class="skills-card-name">Node.js</div>
+            </div>
+            <div class="skills-card">
+                <img class="skills-card-img" src="./files/skills_img/express.js.png" alt="Skill Image">
+                <div class="skills-card-name">Express.js</div>
+            </div>
+            <div class="skills-card">
+                <img class="skills-card-img" src="./files/skills_img/js.png" alt="Skill Image">
+                <div class="skills-card-name">JavaScript</div>
+            </div>
+            <div class="skills-card">
+                <img class="skills-card-img" src="./files/skills_img/html.png" alt="Skill Image">
+                <div class="skills-card-name">HTML</div>
+            </div>
+            <div class="skills-card">
+                <img class="skills-card-img" src="./files/skills_img/css.png" alt="Skill Image">
+                <div class="skills-card-name">CSS</div>
+            </div>
+            <div class="skills-card">
+                <img class="skills-card-img" src="./files/skills_img/mongodb.png" alt="Skill Image">
+                <div class="skills-card-name">MongoDB</div>
+            </div>
+            <div class="skills-card">
+                <img class="skills-card-img" src="./files/skills_img/mysql.png" alt="Skill Image">
+                <div class="skills-card-name">MySQL</div>
+            </div>
+            <div class="skills-card">
+                <img class="skills-card-img" src="./files/skills_img/redis.png" alt="Skill Image">
+                <div class="skills-card-name">Redis</div>
+            </div>
+            <div class="skills-card">
+                <img class="skills-card-img" src="./files/skills_img/typescript.png" alt="Skill Image">
+                <div class="skills-card-name">TypeScript</div>
+            </div>
+            <div class="skills-card">
+                <img class="skills-card-img" src="./files/skills_img/python.png" alt="Skill Image">
+                <div class="skills-card-name">Python</div>
+            </div>
+            <div class="skills-card">
+                <img class="skills-card-img" src="./files/skills_img/django.webp" alt="Skill Image">
+                <div class="skills-card-name">Django</div>
+            </div>
+            <div class="skills-card">
+                <img class="skills-card-img" src="./files/skills_img/aws.png" alt="Skill Image">
+                <div class="skills-card-name">AWS</div>
+            </div>
+            <!-- Add more skills cards as needed -->
+        </div>
+
+    </section>
+    <br>
+
+    <hr>
+
+    <!------------------------------------------------------ PROJECTS  ------------------------------------------------------>
+    <section id="projects" class="projects section">
+        <br>
+        <br>
+        <h1>Projects</h1>
+        <br>
+        <div class="course-project">
+            <!-- project 1  -->
+            <div class="project-card">
+                <img src="./files/project/bookmyshoot/bm1.png" alt="Project Image">
+                <h3 class="project-title"><span>Book My Shoot</span> : Photographer Booking System</h3>
+                <br>
+                <hr>
+                <p class="project-description"><span>Description: </span>The photographer booking system allows
+                    logged-in users to book a shoot with
+                    their desired photographer. Enthusiastic and professional photographers can apply to become
+                    photographers on our website. <br><i style="font-size: 14px;">A collaborative project build by a
+                        team of 5 members.</i></p>
+                <br>
+                <hr>
+                <p class="project-tech-stack"><span>Tech Stack: </span>HTML, CSS, JavaScript, Node.js, Express.js,
+                    MongoDB, Socket.io</p>
+                <br>
+                <hr>
+                <div>
+                    <a href="https://github.com/mohammadsaud-0110/photographer-booking-system" target="_blank"><button
+                            class="project-github-link">GitHub <i class="fa-brands fa-github"></i>
+                        </button></a>
+                    <a href="https://bookmyshoot.netlify.app/" target="_blank"><button
+                            class="project-deployed-link">Live <i class="fa-solid fa-globe"></i></button></a>
+                </div>
+            </div>
+
+            <!-- project 2  -->
+            <div class="project-card">
+                <img src="https://user-images.githubusercontent.com/112760057/221494026-3312f7cc-4882-429c-880f-5c9341032671.png"
+                    alt="Project Image">
+                <h3 class="project-title"><span>Apparel Store</span> : Lifestyle Store Clone</h3>
+                <br>
+                <hr>
+                <p class="project-description"><span>Description: </span>An online fashion store where logged-in user
+                    can buy different fashion products like clothes, shoes and accessories. User can add these items to
+                    cart.
+                    User can also sort items by price, filter by category, type, color, etc.
+                    <br><i>A solo project.</i>
+                </p>
+                <br>
+                <hr>
+                <p class="project-tech-stack"><span>Tech Stack:</span> HTML, CSS, JavaScript, Node.js, Express.js,
+                    MongoDB</p>
+                <br>
+                <hr>
+                <div>
+                    <a href="https://github.com/mohammadsaud-0110/life_style_store-clone" target="_blank"><button
+                            class="project-github-link">GitHub <i class="fa-brands fa-github"></i>
+                        </button></a>
+                    <a href="https://store-apparel.netlify.app/" target="_blank"><button
+                            class="project-deployed-link">Live <i class="fa-solid fa-globe"></i></button></a>
+                </div>
+            </div>
+
+            <!-- project 3 -->
+            <div class="project-card">
+                <img src="https://user-images.githubusercontent.com/112760057/214030990-ccea2146-dd3e-4507-a6f5-2d6dc23c66c7.png"
+                    alt="Project Image">
+                <h3 class="project-title"><span>Fashionista</span> : ASOS Clone</h3>
+                <br>
+                <hr>
+                <p class="project-description"><span>Description: </span>An online fashion store where users
+                    can buy clothes, shoes and accessories. Users can add these items to cart or whishlist.
+                    User can also sort items by price, filter by category, type, color, etc.
+                    <br><i>A collaborative project build by a team of 4 members.</i>
+                </p>
+                <br>
+                <hr>
+                <p class="project-tech-stack"><span>Tech Stack:</span> HTML, CSS, JavaScript, Mock API</p>
+                <br>
+                <hr>
+                <div>
+                    <a href="https://github.com/mohammadsaud-0110/ASOS_clone" target="_blank"><button
+                            class="project-github-link">GitHub <i class="fa-brands fa-github"></i>
+                        </button></a>
+                    <a href="https://faishionista-asos.netlify.app/" target="_blank"><button
+                            class="project-deployed-link">Live <i class="fa-solid fa-globe"></i></button></a>
+                </div>
+            </div>
+
+            <!-- project 4 -->
+            <div class="project-card">
+                <img src="./files/project/twacha/twacha.png" alt="Project Image">
+                <h3 class="project-title"><span>Twacha</span> : Sephora Clone</h3>
+                <br>
+                <hr>
+                <p class="project-description"><span>Description: </span>AIt is an online fashion store where logged-in
+                    users can buy clothes. Users can add these items to cart or whishlist. Platform also has admin panel
+                    for
+                    user registration and product management.
+                    <br><i>A solo project.</i>
+                </p>
+                <br>
+                <hr>
+                <p class="project-tech-stack"><span>Tech Stack:</span> HTML, CSS, JavaScript, Local Storage</p>
+                <br>
+                <hr>
+                <div>
+                    <a href="https://github.com/mohammadsaud-0110/Sephora-clone" target="_blank"><button
+                            class="project-github-link">GitHub <i class="fa-brands fa-github"></i>
+                        </button></a>
+                    <a href="https://twacha-sephora.netlify.app/" target="_blank"><button
+                            class="project-deployed-link">Live <i class="fa-solid fa-globe"></i></button></a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- --------------------------------- Gen AI Projects  ----------------------------------------- -->
+        <br>
+        <br>
+        <br>
+        <button class="genai-btn futuristic-button">
+            <h2>Generative AI Project</h2>
+        </button>
+        <br>
+        <div class="genai-project">
+
+            <!-- Gen Ai project 1 -->
+            <div class="gen-pro-card project-card">
+                <div class="project-img-div">
+                    <img src="./files/project/fitgym/Screenshot_20230913-170035.png" alt="" class="fitgymImg">
+                    <img src="./files/project/fitgym/Screenshot_20230913-170045.png" alt="" class="fitgymImg">
+                    <img src="./files/project/fitgym/Screenshot_20230913-170115.png" alt="" class="fitgymImg">
+                </div>
+
+                <h3 class="project-title"><span>FitGym</span> : Health Tracker Mobile App</h3>
+                <br>
+                <hr>
+                <p class="project-description"><span>Description: </span>The App lets logged-in users to follow a
+                    Workout plan and a Nutrition plan and set goals and log daily activities. Logged-in trainers can
+                    create new Workout & Nutrition Plans.</p>
+                <br>
+                <hr>
+                <p class="project-tech-stack"><span>Tech Stack: </span>React Native, Python, Django, PostgreSQL</p>
+                <br>
+                <hr>
+                <div>
+                    <a href="https://github.com/mohammadsaud-0110/Fit-Gym" target="_blank"><button
+                            class="project-github-link">GitHub <i class="fa-brands fa-github"></i>
+                        </button></a>
+                    <a href="https://youtu.be/UfIIxeN7FFE" target="_blank"><button class="project-deployed-link">Demo <i
+                                class="fa-solid fa-video"></i></button></a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <hr>
+
+    <!------------------------------------------------- GitHub Stats ---------------------------------------------- -->
+    <section id="github-section" class="github-section section">
+        <br>
+        <br>
+        <h1>GitHub Stats</h1>
+        <br>
+        <br>
+        <div>
+            <img src="https://github-readme-streak-stats.herokuapp.com/?user=mohammadsaud-0110&theme=vue-dark&hide_border=true&date_format=j%20M%5B%20Y%5D"
+                alt="mohammadsaud-0110's Github streak">
+            <img src="https://github-readme-stats.vercel.app/api?username=mohammadsaud-0110&show_icons=true&locale=en&&theme=vue-dark&hide_border=true"
+                alt="mohammadsaud-0110's Github stats">
+            <br>
+            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mohammadsaud-0110&theme=vue-dark&show_icons=true&locale=en&hide_border=true"
+                alt="mohammadsaud-0110's Github top languages">
+            <br>
+            <img id="gitCal" src="https://ghchart.rshah.org/BF360C/mohammadsaud-0110" alt="mohammadsaud-0110's Github chart">
+        </div>
+
+
+
+    </section>
+
+    <hr>
+
+    <!------------------------------------------------------ Contact  ------------------------------------------------------>
+    <section id="contact" class="contact section">
+        <br>
+        <br>
+        <h1>Contact</h1>
+        <br>
+        <div id="contact-github"><i class="fa-brands fa-square-github"></i>&nbsp;: &nbsp; <a
+                href="https://github.com/mohammadsaud-0110" target="_blank">mohammadsaud-0110</a></div>
+        <div id="contact-linkedin"><i class="fa-brands fa-linkedin"></i>&nbsp;: &nbsp; <a
+                href="https://www.linkedin.com/in/mdsaud/" target="_blank">mdsaud</a></div>
+        <div id="contact-phone"><i class="fa-solid fa-square-phone"></i>&nbsp;: &nbsp;<span>+91 8127934800</span></div>
+        <div id="contact-email"><i class="fa-solid fa-envelope"></i>&nbsp;: &nbsp;<span>mdsaud.mrj@gmail.com</span>
+        </div>
+    </section>
+
+    <script src="./files/scripts.js"></script>
+</body>
+
+</html>
